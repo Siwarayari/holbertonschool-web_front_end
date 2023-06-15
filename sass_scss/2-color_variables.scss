@@ -1,0 +1,13 @@
+/* assign  text color and background color */
+$color: #3D3D3D;
+$color2: #6D6D6D;
+body{
+	  color: #{$color};
+	    background-color: #{$color2};
+    }
+    p{
+	      color: #{$color};
+      }
+      h2 {
+	        background-color: #{$color2};
+	}
