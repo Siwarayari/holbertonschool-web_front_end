@@ -1,5 +1,5 @@
-ass & Scss
-## Objectives
+# Sass & Scss
+## Learning Objectives
 * What Sass means
 * How to write Sass & Scss file
 * What is the difference between Sass and Scss
