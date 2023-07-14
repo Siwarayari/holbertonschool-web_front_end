@@ -1,6 +1,6 @@
 /* SUMMARY
-    2. LAYOUT
     1. GLOBAL
+    2. LAYOUT
     3. SECTION
     4. CARD
 */
@@ -185,10 +185,8 @@
     padding: 0;
     list-style: none;
   }
-  .row {
-	display: flex;  
-  }
-   
+  
+  
   [class*='col-'] {
     padding: 0.5rem;
   }
@@ -199,6 +197,10 @@
   
   .col-1-2 {
     width: 50%;
+  }
+
+  .row {
+    display: flex;
   }
   
   /* Navbar
@@ -386,7 +388,7 @@
     position: relative;
     overflow: hidden;
   }
-
+  
   .card-work:hover .card-outer {
     transform: scale(0.95);
   }
@@ -450,6 +452,7 @@
   .card-services .card-title {
     margin: 0;
   }
+  
   .card-services a {
     display: block;
     padding: 2rem;
